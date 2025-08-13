@@ -30,14 +30,16 @@ export default function DokiDokiModal({ isOpen, closeModal }: ModalProps) {
           <div>
             <p className="text-lg font-semibold mb-1">프로젝트 요약</p>
             <p>사용자의 감정을 분석하여 그에 맞는 음악 추천</p>
-            <p>감정 분석 및 대화 분기 시스텐을 이용한 시나리오 제공</p>
+            <p>감정 분석 및 대화 분기 시스템을 이용한 시나리오 제공</p>
             <p>음악 재생 제어 기능 및 결과 공유 기능 제공</p>
           </div>
           <div>
             <p className="text-lg font-semibold mb-1">프로젝트 내 역할 및 기여</p>
             <p>프로젝트에서 PL로서 감정 분석 및 대화 분기 시스템을 담당하여 주요 기능 개발을 진행했습니다.</p>
+            <p>로컬스토리지를 이용하여 감정 점수 저장 및 게임 진행도 저장 기능 개발 및</p>
             <p>
-              입력된 상태(사용자 이름, 선택한 캐릭터, 감정 점수 등)와 UI를 일관되게 연동하여 안정적인 인터페이스 제공
+              입력된 상태(사용자 이름, 선택한 캐릭터, 감정 점수 등)와 UI를 일관되게 연동하여 안정적인 인터페이스를
+              제공하였습니다.
             </p>
           </div>
           <div>
