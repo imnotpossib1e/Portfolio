@@ -2,22 +2,12 @@
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import {
-  CSS,
-  FigmaDark,
-  GithubDark,
-  HTML,
-  JavaScript,
-  NextJSDark,
-  ReactDark,
-  TailwindCSSDark,
-  TypeScript,
-  VercelDark,
-} from "@fdorantesm/react-skill-icons";
+
 import {
   CalendarFold,
   CircleUserRound,
   Copy,
+  Figma,
   Link2,
   Mail,
   MessageCircleWarning,
@@ -30,6 +20,29 @@ import React, { useRef, useState } from "react";
 import Swal from "sweetalert2";
 import UgVegModal from "@/app/UgVegModal";
 import DokiDokiModal from "@/app/DokiDokiModal";
+import { FaCss3, FaReact } from "react-icons/fa";
+import { RiJavascriptFill, RiNextjsFill, RiNextjsLine } from "react-icons/ri";
+import {
+  SocialFigmaIcon,
+  TechFigmaIcon,
+  TechNextjs2Icon,
+  TechNextjsIcon,
+  TechReactRouterIcon,
+  TechTypescriptIcon,
+} from "react-tool-icons";
+import { TbBrandFigma, TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
+import { SiJavascript, SiNextdotjs, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
+import { BiLogoFigma, BiLogoTailwindCss, BiLogoTypescript } from "react-icons/bi";
+import { DiReact } from "react-icons/di";
+import { FaFigma, FaGithub, FaHtml5 } from "react-icons/fa";
+import { FiFigma } from "react-icons/fi";
+import { CgFigma, CgVercel } from "react-icons/cg";
+import { GrFigma } from "react-icons/gr";
+import { LuFigma } from "react-icons/lu";
+import { PiFigmaLogo, PiFigmaLogoFill } from "react-icons/pi";
+import { RxFigmaLogo } from "react-icons/rx";
+import { LiaFigma } from "react-icons/lia";
+import { IoLogoVercel } from "react-icons/io5";
 
 export default function Home() {
   const aboutRef = useRef<HTMLElement | null>(null);
@@ -135,43 +148,44 @@ export default function Home() {
           </h3>
           <div className="grid md:grid-cols-[1fr_1fr_1fr_1fr_1fr] grid-cols-2 gap-6 mt-12 bg-white rounded-lg px-6 py-10 shadow-lg whitespace-nowrap">
             <div className="flex flex-col items-center gap-1">
-              <ReactDark width={40} height={40} />
+              <FaReact size={40} />
               <span className="text-lg font-semibold">React</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <NextJSDark width={40} height={40} />
+              <TbBrandNextjs size={40} color="black" />
               <span className="text-lg font-semibold">Next.js</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <TypeScript width={40} height={40} />
+              <SiTypescript size={40} />
               <span className="text-lg font-semibold">TypeScript</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <JavaScript width={40} height={40} />
+              <SiJavascript size={40} />
               <span className="text-lg font-semibold">JavaScript</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <GithubDark width={40} height={40} />
+              <FaGithub size={40} />
               <span className="text-lg font-semibold">Github</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <HTML width={40} height={40} />
+              <FaHtml5 size={40} />
               <span className="text-lg font-semibold">HTML5</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <CSS width={40} height={40} />
+              <FaCss3 size={40} />
               <span className="text-lg font-semibold">CSS3</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <TailwindCSSDark width={40} height={40} />
+              <BiLogoTailwindCss size={40} />
+              {/* <TailwindCSSDark width={40} height={40} /> */}
               <span className="text-lg font-semibold">TailwindCSS</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <FigmaDark width={40} height={40} />
+              <SocialFigmaIcon size={40} />
               <span className="text-lg font-semibold">Figma</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <VercelDark width={40} height={40} />
+              <CgVercel size={40} color="black" />
               <span className="text-lg font-semibold">Vercel</span>
             </div>
           </div>
