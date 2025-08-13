@@ -29,7 +29,7 @@ export default function UgVegModal({ isOpen, closeModal }: ModalProps) {
           </div>
           <div>
             <p className="text-lg font-semibold mb-1">프로젝트 요약</p>
-            <p>오픈 마켓 API를 활용한 못난이 농산물 전문 쇼핑몰</p>
+            <p>오픈 마켓 API, React, Next.js를 활용한 못난이 농산물 전문 쇼핑몰</p>
             <p>레시피 게시판을 이용한 커뮤니티 형성</p>
           </div>
           <div>

@@ -36,6 +36,9 @@ export default function DokiDokiModal({ isOpen, closeModal }: ModalProps) {
           <div>
             <p className="text-lg font-semibold mb-1">프로젝트 내 역할 및 기여</p>
             <p>프로젝트에서 PL로서 감정 분석 및 대화 분기 시스템을 담당하여 주요 기능 개발을 진행했습니다.</p>
+            <p>
+              입력된 상태(사용자 이름, 선택한 캐릭터, 감정 점수 등)와 UI를 일관되게 연동하여 안정적인 인터페이스 제공
+            </p>
           </div>
           <div>
             <p className="text-lg font-semibold mb-1">기술 스택</p>
