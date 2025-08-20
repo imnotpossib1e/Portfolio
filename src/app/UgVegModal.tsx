@@ -46,18 +46,28 @@ export default function UgVegModal({ isOpen, closeModal }: ModalProps) {
               또한, 주기적인 소통과 협업 툴 활용으로 실시간 이슈를 공유하며 팀 전체의 생산성과 프로젝트의 원활한 진행을
               도모했습니다.
             </p>
+            <p>프로젝트가 끝난 후 개인적으로 챌린지 요소였던 판매자 상품 관리 페이지를 개발하였습니다.</p>
           </div>
           <div>
             <p className="text-lg font-semibold mb-1">기술 스택</p>
             <p>React, Next.js, Zustand, TypeScript, TailwindCSS, Vercel, React-Hook-Form, Bruno, MongoDB, Figma</p>
           </div>
-          <div>
+          <div className="flex gap-8">
             <Link
               href={"https://github.com/FRONTENDBOOTCAMP-13th/Final-13-13tachi"}
               target="_blank"
               className="flex gap-2 text-lg font-semibold items-center"
             >
               Github <Link2 />
+            </Link>
+            <Link
+              href={
+                "https://www.figma.com/design/if5EqsKVjpMy47Jj6fL0Iw/%ED%9D%99%EB%82%B4%EC%9D%8C-%EC%83%81%EC%A0%90--UgVeg?node-id=0-1&p=f"
+              }
+              target="_blank"
+              className="flex gap-2 text-lg font-semibold items-center"
+            >
+              Figma <Link2 />
             </Link>
           </div>
         </div>

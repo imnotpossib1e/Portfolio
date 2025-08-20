@@ -46,13 +46,20 @@ export default function DokiDokiModal({ isOpen, closeModal }: ModalProps) {
             <p className="text-lg font-semibold mb-1">기술 스택</p>
             <p>TypeScript, HTML5, CSS3, Netlify, Figma</p>
           </div>
-          <div>
+          <div className="flex gap-8">
             <Link
               href={"https://github.com/imnotpossib1e/JS-09-Promise9"}
               target="_blank"
               className="flex gap-2 text-lg font-semibold items-center"
             >
               Github <Link2 />
+            </Link>
+            <Link
+              href={"https://www.figma.com/design/yw1kFJ3jGXqfYX513tzum7/playlist?node-id=0-1&p=f"}
+              target="_blank"
+              className="flex gap-2 text-lg font-semibold items-center"
+            >
+              Figma <Link2 />
             </Link>
           </div>
         </div>
