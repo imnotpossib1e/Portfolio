@@ -123,13 +123,6 @@ export default function Home() {
               </p>
             </div>
             <div className="flex flex-row items-center gap-4 bg-white rounded-lg px-4 py-3 shadow-lg">
-              <CalendarFold width={30} height={30} />
-              <p className="flex flex-col">
-                <span className="font-semibold text-lg">학력</span>
-                <span className="whitespace-nowrap">국립군산대학교 컴퓨터정보공학과</span>
-              </p>
-            </div>
-            <div className="flex flex-row items-center gap-4 bg-white rounded-lg px-4 py-3 shadow-lg">
               <Mail width={30} height={30} />
               <p className="flex flex-col">
                 <span className="font-semibold text-lg">Contact</span>
@@ -137,6 +130,18 @@ export default function Home() {
                   habit2me@naver.com
                   <Copy width={20} height={20} className="hover:cursor-pointer" onClick={handleCopy} />
                 </span>
+              </p>
+            </div>
+            <div className="flex flex-row items-center gap-4 bg-white rounded-lg px-4 py-3 shadow-lg">
+              <Image src={"/Github-Dark.svg"} alt="Github 로고" width={30} height={30} />
+              <p className="flex flex-col">
+                <Link
+                  href={"https://github.com/imnotpossib1e"}
+                  target="_blank"
+                  className="flex items-center gap-2 font-semibold text-lg"
+                >
+                  Github <Link2 />
+                </Link>
               </p>
             </div>
           </div>
@@ -148,44 +153,43 @@ export default function Home() {
           </h3>
           <div className="grid md:grid-cols-[1fr_1fr_1fr_1fr_1fr] grid-cols-2 gap-6 mt-12 bg-white rounded-lg px-6 py-10 shadow-lg whitespace-nowrap">
             <div className="flex flex-col items-center gap-1">
-              <FaReact size={40} />
+              <Image src={"/React.svg"} alt="React 로고" width={40} height={40} />
               <span className="text-lg font-semibold">React</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <TbBrandNextjs size={40} color="black" />
+              <Image src={"/NextJS-DARK.svg"} alt="Next.js 로고" width={40} height={40} />
               <span className="text-lg font-semibold">Next.js</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <SiTypescript size={40} />
+              <Image src={"/TypeScript.svg"} alt="TypeScript 로고" width={40} height={40} />
               <span className="text-lg font-semibold">TypeScript</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <SiJavascript size={40} />
+              <Image src={"/JavaScript.svg"} alt="JavaScript 로고" width={40} height={40} />
               <span className="text-lg font-semibold">JavaScript</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <FaGithub size={40} />
+              <Image src={"/Github-Dark.svg"} alt="Github 로고" width={40} height={40} />
               <span className="text-lg font-semibold">Github</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <FaHtml5 size={40} />
+              <Image src={"/HTML.svg"} alt="HTML 로고" width={40} height={40} />
               <span className="text-lg font-semibold">HTML5</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <FaCss3 size={40} />
+              <Image src={"/CSS.svg"} alt="CSS 로고" width={40} height={40} />
               <span className="text-lg font-semibold">CSS3</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <BiLogoTailwindCss size={40} />
-              {/* <TailwindCSSDark width={40} height={40} /> */}
+              <Image src={"/TailwindCSS-DARK.svg"} alt="TailwindCSS 로고" width={40} height={40} />
               <span className="text-lg font-semibold">TailwindCSS</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <SocialFigmaIcon size={40} />
+              <Image src={"/Figma-Dark.svg"} alt="Figma 로고" width={40} height={40} />
               <span className="text-lg font-semibold">Figma</span>
             </div>
             <div className="flex flex-col items-center gap-1">
-              <CgVercel size={40} color="black" />
+              <Image src={"/Vercel-Dark.svg"} alt="Vercel 로고" width={40} height={40} />
               <span className="text-lg font-semibold">Vercel</span>
             </div>
           </div>
@@ -246,7 +250,7 @@ export default function Home() {
                 <div className="">
                   <p>- 2025.07.07 - 2025.08.08</p>
                   <p>- 상품성은 부족하지만 품질은 그대로인 못난이 농산물 판매 사이트</p>
-                  <p>- Next.js API Routes와 fetch를 사용한 실시간 데이터 연동 쇼핑몰</p>
+                  <p>- Next.js RESTful API를 사용한 실시간 데이터 연동 쇼핑몰</p>
                 </div>
                 <div className="my-4">
                   <span className="font-semibold">사용 기술</span>
